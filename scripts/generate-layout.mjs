@@ -9,7 +9,7 @@ import { join, relative, sep, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const PACKAGE_ROOT = join(__dirname, '..', 'package', 'g3000-fix-info-fix-2024');
+const PACKAGE_ROOT = join(__dirname, '..', 'package', 'g3000-fix-info-feature-2024');
 
 const UNIX_EPOCH_AS_FILETIME = 116444736000000000;
 

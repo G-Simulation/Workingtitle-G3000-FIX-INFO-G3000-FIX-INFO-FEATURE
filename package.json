@@ -1,5 +1,5 @@
 {
-  "name": "g3000-fix-info-fix-2024",
+  "name": "g3000-fix-info-feature-2024",
   "version": "0.1.0",
   "description": "G3000 FIX (Insert FIX into Flight Plan) plugin for WT G3000 v2",
   "private": true,
@@ -16,7 +16,7 @@
     "dev": "npm run watch",
     "test": "vitest run",
     "test:watch": "vitest",
-    "clean": "rimraf build package/g3000-fix-info-fix-2024/html_ui/G3000FixMod"
+    "clean": "rimraf build package/g3000-fix-info-feature-2024/html_ui/G3000FixMod"
   },
   "devDependencies": {
     "@microsoft/msfs-sdk": "2.3.3",

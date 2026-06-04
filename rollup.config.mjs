@@ -2,7 +2,7 @@ import css from 'rollup-plugin-import-css';
 import resolve from '@rollup/plugin-node-resolve';
 import { spawn } from 'node:child_process';
 
-const OUT_DIR = 'package/g3000-fix-info-fix-2024/html_ui/G3000FixMod';
+const OUT_DIR = 'package/g3000-fix-info-feature-2024/html_ui/G3000FixMod';
 
 /** Regenerates layout.json after a bundle is written. Used to keep watch-mode in sync. */
 const layoutPlugin = {
