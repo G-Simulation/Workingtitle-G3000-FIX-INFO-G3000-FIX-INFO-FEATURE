@@ -1,4 +1,4 @@
-# G3000 FIX INFO FIX — Real Garmin G5000 "FIX INFO" for WT G3000
+# G3000 FIX INFO FEATURE — Real Garmin G5000 "FIX INFO" for WT G3000
 
 Add the real Garmin G5000 "FIX INFO" feature to the Working Title G3000 in MSFS — define user waypoints by radial/distance from any reference, including runway thresholds.
 
