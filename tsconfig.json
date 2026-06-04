@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "target": "es2017",
+    "module": "es2015",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "build/html_ui",
+    "declaration": false,
+    "removeComments": false,
+    "moduleResolution": "node",
+    "jsxFactory": "FSComponent.buildComponent",
+    "jsxFragmentFactory": "FSComponent.Fragment",
+    "jsx": "react",
+    "lib": ["DOM", "DOM.Iterable", "ES2017", "ES2021.WeakRef"],
+    "plugins": [
+      { "transform": "@microsoft/msfs-ts-transformer" }
+    ]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["**/build", "**/dist", "**/node_modules", "package"]
+}

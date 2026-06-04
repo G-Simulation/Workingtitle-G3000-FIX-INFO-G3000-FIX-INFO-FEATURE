@@ -1,0 +1,39 @@
+{
+  "name": "g3000-fix-info-fix-2024",
+  "version": "0.1.0",
+  "description": "G3000 FIX (Insert FIX into Flight Plan) plugin for WT G3000 v2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare": "ts-patch install -s",
+    "build:compile": "tspc",
+    "build:rollup": "rollup -c",
+    "build:layout": "node scripts/generate-layout.mjs",
+    "build": "npm run build:compile && npm run build:rollup && npm run build:layout",
+    "watch:ts": "tspc -w --preserveWatchOutput",
+    "watch:rollup": "rollup -c -w",
+    "watch": "npm-run-all --parallel watch:ts watch:rollup",
+    "dev": "npm run watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "clean": "rimraf build package/g3000-fix-info-fix-2024/html_ui/G3000FixMod"
+  },
+  "devDependencies": {
+    "@microsoft/msfs-sdk": "2.3.3",
+    "@microsoft/msfs-garminsdk": "2.3.4",
+    "@microsoft/msfs-wtg3000-common": "2.2.8",
+    "@microsoft/msfs-wtg3000-gtc": "2.2.8",
+    "@microsoft/msfs-wtg3000-mfd": "2.2.8",
+    "@microsoft/msfs-wtg3000-pfd": "2.2.8",
+    "@microsoft/msfs-ts-transformer": "^1.0.0",
+    "@microsoft/msfs-types": "^1.14.6",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^4.27.3",
+    "rollup-plugin-import-css": "^3.1.0",
+    "ts-patch": "^3.3.0",
+    "typescript": "5.8.3",
+    "rimraf": "^5.0.5",
+    "vitest": "^2.1.8",
+    "npm-run-all": "^4.1.5"
+  }
+}

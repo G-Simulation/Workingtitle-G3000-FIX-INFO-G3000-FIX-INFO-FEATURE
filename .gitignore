@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Build output
+build/
+
+# Packaged plugin (built artifacts + deploy tree)
+package/
+
+# Local editor/tooling settings (not part of the plugin)
+.claude/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
